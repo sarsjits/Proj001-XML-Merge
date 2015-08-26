@@ -33,7 +33,7 @@ public class GetXMLRemote {
 	public void writeToFile() throws UnsupportedOperationException, IOException {
 		HttpEntity entity = response.getEntity();
 		InputStream is = entity.getContent();
-		String filePath = "C:/Users/jitendra.sarswat/Desktop/test2.xml";
+		String filePath = "C:/Users/jitendra.sarswat/Desktop/test1.xml";
 		FileOutputStream fos = new FileOutputStream(new File(filePath));
 		int inByte;
 		while((inByte = is.read()) != -1)
